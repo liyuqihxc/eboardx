@@ -2,16 +2,6 @@
 cmake_minimum_required(VERSION 3.0)
 project("eboardx")
 
-if("${CMAKE_HOST_SYSTEM_NAME}" MATCHES "[Ww]in")
-  message(STATUS "windows detected: setting enable-short-names-default to ON")
-  set(enable-short-names-default ON)
-else()
-  set(enable-short-names-default OFF)
-endif()
-
-option(enable-short-names "use short names for firmware file" ${enable-short-names-default})
-message(STATUS "firmware file short names: ${enable-short-names}")
-
 SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 find_package(UnixCommands)
@@ -19,8 +9,8 @@ find_package(ChealiChargerInternal REQUIRED)
 
 string(TIMESTAMP timestamp "%Y%m%d")
 
-set(app-version 2.01)
-set(app-eeprom-settings-version 12)
+set(app-version 0.1)
+set(app-eeprom-settings-version 1)
 set(app-eeprom-version-string "e${app-eeprom-settings-version}")
 set(app-buildnumber ${timestamp})
 
