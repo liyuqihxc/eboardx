@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name common)(type Legacy)(uri ${KIPRJMOD}/../../kicad/common.lib)(options "")(descr ""))
+  (lib (name charger)(type Legacy)(uri ${KIPRJMOD}/libraries/charger.lib)(options "")(descr ""))
+)
