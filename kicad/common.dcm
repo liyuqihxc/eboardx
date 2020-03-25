@@ -6,7 +6,7 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
-$CMP Q_NMOS_DGS
+$CMP Q_NMOS_GDS
 D N-MOSFET transistor, drain/gate/source
 K transistor NMOS N-MOS N-MOSFET
 F ~

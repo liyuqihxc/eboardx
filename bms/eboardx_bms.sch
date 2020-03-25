@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E6F4DF6
 P 3200 4600
 AR Path="/5E5A6EAF/5E6F4DF6" Ref="Q?"  Part="1" 
@@ -28,7 +28,7 @@ F 3 "" H 3200 4600 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E707817
 P 4750 4600
 AR Path="/5E5A6EAF/5E707817" Ref="Q?"  Part="1" 
@@ -42,7 +42,7 @@ F 3 "" H 4750 4600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E7D24A7
 P 4750 5100
 AR Path="/5E5A6EAF/5E7D24A7" Ref="Q?"  Part="1" 
@@ -77,7 +77,7 @@ Wire Wire Line
 	4300 5900 4650 5900
 Connection ~ 4300 5400
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E827101
 P 4750 5600
 AR Path="/5E5A6EAF/5E827101" Ref="Q?"  Part="1" 
@@ -91,7 +91,7 @@ F 3 "" H 4750 5600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E8279E6
 P 4750 6100
 AR Path="/5E5A6EAF/5E8279E6" Ref="Q?"  Part="1" 
@@ -105,7 +105,7 @@ F 3 "" H 4750 6100 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E82840E
 P 4750 6600
 AR Path="/5E5A6EAF/5E82840E" Ref="Q?"  Part="1" 
@@ -124,7 +124,7 @@ Wire Wire Line
 	4300 6400 4650 6400
 Connection ~ 4300 5900
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E83705F
 P 3200 5100
 AR Path="/5E5A6EAF/5E83705F" Ref="Q?"  Part="1" 
@@ -144,7 +144,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 4900 3300 4900
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E8466FE
 P 3200 5600
 AR Path="/5E5A6EAF/5E8466FE" Ref="Q?"  Part="1" 
@@ -158,7 +158,7 @@ F 3 "" H 3200 5600 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E846F3D
 P 3200 6100
 AR Path="/5E5A6EAF/5E846F3D" Ref="Q?"  Part="1" 
@@ -172,7 +172,7 @@ F 3 "" H 3200 6100 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5E847607
 P 3200 6600
 AR Path="/5E5A6EAF/5E847607" Ref="Q?"  Part="1" 
@@ -588,7 +588,7 @@ Wire Wire Line
 Text Label 4550 4250 2    50   ~ 0
 P-
 Text Label 5300 4950 2    50   ~ 0
-P
+P-
 Text Label 5400 2650 0    50   ~ 0
 P-
 $Comp
@@ -600,10 +600,10 @@ F 1 "Balance connector" H 6980 2501 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B11B-PH-K_1x11_P2.00mm_Vertical" H 6900 2550 50  0001 C CNN
 F 3 "~" H 6900 2550 50  0001 C CNN
 	1    6900 2550
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5F0E5A14
 P 3200 7100
 AR Path="/5E5A6EAF/5F0E5A14" Ref="Q?"  Part="1" 
@@ -617,7 +617,7 @@ F 3 "" H 3200 7100 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q?
+L common:Q_NMOS_GDS Q?
 U 1 1 5F0E74E9
 P 4750 7100
 AR Path="/5E5A6EAF/5F0E74E9" Ref="Q?"  Part="1" 
@@ -740,7 +740,7 @@ L common:CONN_1 P4
 U 1 1 5EF38601
 P 5800 2900
 F 0 "P4" H 5858 2900 40  0000 L CNN
-F 1 "CONN_1" H 5800 2955 30  0001 C CNN
+F 1 "BAT-" H 5800 2955 30  0001 C CNN
 F 2 "common:1PAD_4x5mm" H 5800 2900 60  0001 C CNN
 F 3 "" H 5800 2900 60  0001 C CNN
 	1    5800 2900
@@ -751,7 +751,7 @@ L common:CONN_1 P3
 U 1 1 5EF38323
 P 5800 2650
 F 0 "P3" H 5858 2650 40  0000 L CNN
-F 1 "CONN_1" H 5800 2705 30  0001 C CNN
+F 1 "P-" H 5800 2705 30  0001 C CNN
 F 2 "common:1PAD_4x5mm" H 5800 2650 60  0001 C CNN
 F 3 "" H 5800 2650 60  0001 C CNN
 	1    5800 2650
@@ -762,7 +762,7 @@ L common:CONN_1 P2
 U 1 1 626ECFC0
 P 5800 2425
 F 0 "P2" H 5858 2425 40  0000 L CNN
-F 1 "CONN_1" H 5800 2480 30  0001 C CNN
+F 1 "P+" H 5800 2480 30  0001 C CNN
 F 2 "common:1PAD_4x5mm" H 5800 2425 60  0001 C CNN
 F 3 "" H 5800 2425 60  0001 C CNN
 	1    5800 2425
@@ -773,7 +773,7 @@ L common:CONN_1 P1
 U 1 1 5EF19FB6
 P 5800 2200
 F 0 "P1" H 5858 2200 40  0000 L CNN
-F 1 "CONN_1" H 5800 2255 30  0001 C CNN
+F 1 "BAT+" H 5800 2255 30  0001 C CNN
 F 2 "common:1PAD_4x5mm" H 5800 2200 60  0001 C CNN
 F 3 "" H 5800 2200 60  0001 C CNN
 	1    5800 2200
