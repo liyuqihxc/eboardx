@@ -132,7 +132,6 @@ F 3 "" H 2200 7350 60  0001 C CNN
 	1    2200 7350
 	1    0    0    -1  
 $EndComp
-Connection ~ 1900 7150
 $Comp
 L common:GND #PWR0104
 U 1 1 5E6959E3
@@ -167,7 +166,7 @@ F 3 "" V 1900 6900 30  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q3
+L Device:Q_NMOS_GDS Q3
 U 1 1 5E6911D1
 P 2100 7150
 F 0 "Q3" H 2304 7196 50  0000 L CNN
@@ -230,7 +229,7 @@ F 3 "" H 2200 2050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q4
+L Device:Q_NMOS_GDS Q4
 U 1 1 5E71E890
 P 2550 1600
 F 0 "Q4" H 2754 1646 50  0000 L CNN
@@ -252,7 +251,7 @@ F 3 "" V 2200 1300 30  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q2
+L Device:Q_NMOS_GDS Q2
 U 1 1 5E71ADBD
 P 2100 1850
 F 0 "Q2" H 2304 1896 50  0000 L CNN
@@ -291,7 +290,7 @@ Wire Wire Line
 Text GLabel 3500 800  0    50   Input ~ 0
 BAT-
 $Comp
-L common:Q_NMOS_DGS Q8
+L Device:Q_NMOS_GDS Q8
 U 1 1 5E72164C
 P 3500 1400
 F 0 "Q8" H 3704 1446 50  0000 L CNN
@@ -724,7 +723,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 650  9250 800 
 $Comp
-L common:Q_NMOS_DGS Q6
+L Device:Q_NMOS_GDS Q6
 U 1 1 5E717690
 P 3050 2250
 F 0 "Q6" H 3254 2296 50  0000 L CNN
@@ -746,7 +745,7 @@ F 3 "" H 1450 2900 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q1
+L Device:Q_NMOS_GDS Q1
 U 1 1 5E71B87D
 P 1350 3300
 F 0 "Q1" H 1554 3346 50  0000 L CNN
@@ -795,7 +794,6 @@ Wire Wire Line
 	1450 3100 1900 3100
 Wire Wire Line
 	1900 3100 1900 2950
-Connection ~ 1450 3100
 Wire Wire Line
 	1450 2700 1900 2700
 Wire Wire Line
@@ -955,7 +953,7 @@ $EndComp
 Text Label 1350 3850 0    50   ~ 0
 PWM_BUCK
 $Comp
-L common:Q_NMOS_DGS Q5
+L Device:Q_NMOS_GDS Q5
 U 1 1 5E77CB8E
 P 2900 4100
 F 0 "Q5" H 3104 4146 50  0000 L CNN
@@ -977,7 +975,7 @@ F 3 "" V 3700 3500 30  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q11
+L Device:Q_NMOS_GDS Q11
 U 1 1 5E781529
 P 4050 3800
 F 0 "Q11" H 4254 3846 50  0000 L CNN
@@ -990,14 +988,14 @@ $EndComp
 Text GLabel 3650 3200 0    50   Input ~ 0
 V_IN+
 $Comp
-L common:Q_BJT_PNP Q12
+L Device:Q_PNP_BCE Q12
 U 1 1 5E782EE0
-P 4100 4200
-F 0 "Q12" H 4241 4154 50  0000 L CNN
-F 1 "Q_BJT_PNP" H 4241 4245 50  0000 L CNN
-F 2 "" H 4100 4200 50  0001 C CNN
-F 3 "" H 4100 4200 50  0001 C CNN
-	1    4100 4200
+P 4050 4200
+F 0 "Q12" H 4250 4150 50  0000 L CNN
+F 1 "Q_BJT_PNP" H 4250 4250 50  0000 L CNN
+F 2 "" H 4050 4200 50  0001 C CNN
+F 3 "" H 4050 4200 50  0001 C CNN
+	1    4050 4200
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1014,18 +1012,18 @@ $EndComp
 Text GLabel 3500 4400 0    50   Input ~ 0
 V_IN+
 $Comp
-L common:Q_BJT_PNP Q10
+L Device:Q_PNP_BCE Q10
 U 1 1 5E787139
-P 3950 5400
-F 0 "Q10" H 4091 5354 50  0000 L CNN
-F 1 "Q_BJT_PNP" H 4091 5445 50  0000 L CNN
-F 2 "" H 3950 5400 50  0001 C CNN
-F 3 "" H 3950 5400 50  0001 C CNN
-	1    3950 5400
+P 3900 5400
+F 0 "Q10" H 4100 5350 50  0000 L CNN
+F 1 "Q_BJT_PNP" H 4100 5450 50  0000 L CNN
+F 2 "" H 3900 5400 50  0001 C CNN
+F 3 "" H 3900 5400 50  0001 C CNN
+	1    3900 5400
 	1    0    0    1   
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q7
+L Device:Q_NMOS_GDS Q7
 U 1 1 5E7911FD
 P 3450 5600
 F 0 "Q7" H 3654 5646 50  0000 L CNN
@@ -1079,12 +1077,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 3850 2700 3850
 Wire Wire Line
-	2700 3850 2700 4100
-Wire Wire Line
 	2550 4500 2700 4500
-Wire Wire Line
-	2700 4500 2700 4100
-Connection ~ 2700 4100
 Wire Wire Line
 	1350 3850 1750 3850
 Wire Wire Line
@@ -1117,9 +1110,8 @@ Wire Wire Line
 Wire Wire Line
 	3550 5000 3550 5400
 Connection ~ 3550 5000
-Connection ~ 3550 5400
 $Comp
-L common:Q_NMOS_DGS Q9
+L Device:Q_NMOS_GDS Q9
 U 1 1 5E78712E
 P 3900 5000
 F 0 "Q9" H 4104 5046 50  0000 L CNN
@@ -1186,9 +1178,6 @@ F 3 "" H 3000 4300 60  0001 C CNN
 	1    3000 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 4000 4400 4000
-Connection ~ 4150 4000
 $Comp
 L common:R R17
 U 1 1 5E7F9B89
@@ -1200,7 +1189,6 @@ F 3 "" V 5500 4950 30  0001 C CNN
 	1    5500 4950
 	-1   0    0    1   
 $EndComp
-Connection ~ 4000 5200
 Wire Notes Line
 	3000 3650 450  3650
 Wire Notes Line
@@ -1214,7 +1202,7 @@ Wire Notes Line
 Wire Notes Line
 	3600 5900 3600 7800
 $Comp
-L common:Q_NMOS_DGS Q13
+L Device:Q_NMOS_GDS Q13
 U 1 1 5E82D2B1
 P 5100 4000
 F 0 "Q13" H 5304 4046 50  0000 L CNN
@@ -1259,7 +1247,7 @@ F 3 "~" V 6000 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L common:Q_NMOS_DGS Q14
+L Device:Q_NMOS_GDS Q14
 U 1 1 5E845304
 P 6250 4950
 F 0 "Q14" H 6454 4996 50  0000 L CNN
@@ -1294,7 +1282,6 @@ Wire Wire Line
 	6350 4200 6150 4200
 Wire Wire Line
 	5200 4200 5850 4200
-Connection ~ 5200 4200
 Wire Wire Line
 	6350 4200 6500 4200
 Wire Wire Line
@@ -1943,4 +1930,9 @@ Wire Wire Line
 	8250 4500 8850 4500
 Wire Wire Line
 	8250 4600 8850 4600
+Wire Wire Line
+	2700 3850 2700 4500
+Wire Wire Line
+	4400 4000 4150 4000
+Connection ~ 4150 4000
 $EndSCHEMATC

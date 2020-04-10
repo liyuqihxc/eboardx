@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name common)(type KiCad)(uri ${KIPRJMOD}/../kicad/common.pretty)(options "")(descr ""))
+  (lib (name spot_welder)(type KiCad)(uri ${KIPRJMOD}/libraries/spot_welder.pretty)(options "")(descr ""))
+)
