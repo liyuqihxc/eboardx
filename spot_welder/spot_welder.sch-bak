@@ -19,7 +19,7 @@ U 1 1 5E7EB47B
 P 6500 2575
 F 0 "U1" H 6525 4142 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 6525 4051 50  0000 C CNN
-F 2 "common:LQFP-48_7x7mm_P0.5mm" H 5900 1075 50  0001 R CNN
+F 2 "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm" H 5900 1075 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 6500 2575 50  0001 C CNN
 F 4 "STM32F103C8T6" H 6500 2575 50  0001 C CNN "PartNo"
 	1    6500 2575
@@ -222,7 +222,7 @@ U 1 1 5E808DE8
 P 9875 2925
 F 0 "J2" H 9955 2967 50  0000 L CNN
 F 1 "Conn_SWD" H 9955 2876 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 9875 2925 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9875 2925 50  0001 C CNN
 F 3 "~" H 9875 2925 50  0001 C CNN
 	1    9875 2925
 	1    0    0    -1  
@@ -455,7 +455,7 @@ F 3 "" H 8475 2050 50  0001 C CNN
 	1    8475 2050
 	1    0    0    -1  
 $EndComp
-Text Label 8175 1625 2    50   ~ 0
+Text Label 8075 1625 2    50   ~ 0
 VDDA
 Text Label 4425 5625 2    50   ~ 0
 LED_E
@@ -563,7 +563,7 @@ Wire Wire Line
 	5950 5400 5950 5425
 Connection ~ 5950 5425
 Wire Wire Line
-	8475 1625 8175 1625
+	8475 1625 8200 1625
 Wire Wire Line
 	8475 1525 8475 1625
 Connection ~ 8475 1625
@@ -976,4 +976,18 @@ F 4 "LCM1602K-NSW-BBW" H 4825 6125 50  0001 C CNN "PartNo"
 $EndComp
 Wire Wire Line
 	5225 5925 5300 5925
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5EA11263
+P 8200 1625
+F 0 "#FLG0105" H 8200 1700 50  0001 C CNN
+F 1 "PWR_FLAG" H 8200 1798 50  0000 C CNN
+F 2 "" H 8200 1625 50  0001 C CNN
+F 3 "~" H 8200 1625 50  0001 C CNN
+	1    8200 1625
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 1625
+Wire Wire Line
+	8200 1625 8075 1625
 $EndSCHEMATC
