@@ -1178,8 +1178,6 @@ F 3 "" H 3000 4300 60  0001 C CNN
 	1    3000 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 4000 4400 4000
 $Comp
 L common:R R17
 U 1 1 5E7F9B89
@@ -1934,4 +1932,7 @@ Wire Wire Line
 	8250 4600 8850 4600
 Wire Wire Line
 	2700 3850 2700 4500
+Wire Wire Line
+	4400 4000 4150 4000
+Connection ~ 4150 4000
 $EndSCHEMATC

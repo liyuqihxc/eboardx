@@ -451,7 +451,7 @@ U 1 1 5E6C721B
 P 9550 4900
 F 0 "U5" H 9575 6467 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 9575 6376 50  0000 C CNN
-F 2 "common:LQFP-48_7x7mm_P0.5mm" H 8950 3400 50  0001 R CNN
+F 2 "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm" H 8950 3400 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 9550 4900 50  0001 C CNN
 	1    9550 4900
 	1    0    0    -1  
