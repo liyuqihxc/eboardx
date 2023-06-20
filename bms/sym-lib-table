@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name common)(type Legacy)(uri ${KIPRJMOD}/../kicad/common.lib)(options "")(descr ""))
-  (lib (name bms)(type Legacy)(uri ${KIPRJMOD}/libraries/bms.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "common")(type "Legacy")(uri "${KIPRJMOD}/../kicad/common.lib")(options "")(descr ""))
+  (lib (name "bms")(type "KiCad")(uri "${KIPRJMOD}/libraries/bms.kicad_sym")(options "")(descr ""))
 )

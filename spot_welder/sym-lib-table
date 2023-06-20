@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name common)(type Legacy)(uri ${KIPRJMOD}/../kicad/common.lib)(options "")(descr ""))
-  (lib (name spot_welder)(type Legacy)(uri ${KIPRJMOD}/libraries/spot_welder.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "common")(type "Legacy")(uri "${KIPRJMOD}/../kicad/common.lib")(options "")(descr ""))
+  (lib (name "spot_welder")(type "Legacy")(uri "${KIPRJMOD}/libraries/spot_welder.lib")(options "")(descr ""))
+  (lib (name "spot_welder-rescue")(type "KiCad")(uri "${KIPRJMOD}/spot_welder-rescue.kicad_sym")(options "")(descr ""))
 )
