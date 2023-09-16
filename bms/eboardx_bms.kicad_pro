@@ -1127,7 +1127,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "eboardx_bms.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
