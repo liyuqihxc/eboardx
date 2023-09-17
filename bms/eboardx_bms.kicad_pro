@@ -1176,7 +1176,11 @@
     ],
     [
       "00000000-0000-0000-0000-00005e7cb1da",
-      "Balance charge and over current detection"
+      "Protection for BAT1-10"
+    ],
+    [
+      "17b1291f-ee8f-4b6a-aa9a-77aa36743a7b",
+      "Protection for BAT11-13"
     ]
   ],
   "text_variables": {}
